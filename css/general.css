@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    position: static;
+}
+
+.nav-bar > ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.nav-bar > ul > li {
+    margin: 1em;
+}
+
+.nav-logo {
+    flex: 1;
+}

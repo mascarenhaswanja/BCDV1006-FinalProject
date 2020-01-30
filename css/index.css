@@ -1,0 +1,16 @@
+.badges > img {
+    width: 200px;
+}
+
+.section-odd {
+    background-color: lightgray;
+}
+
+.top-features {
+    display: flex;
+    text-align: center;
+}
+
+.top-features > div {
+    flex-grow: 1;
+}
