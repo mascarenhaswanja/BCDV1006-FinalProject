@@ -27,7 +27,7 @@ img {
     height: 315px;
 }
 
-@media(max-width: 650px) {
+@media screen and (max-width: 650px) {
     section {
         flex-direction: column;
     }

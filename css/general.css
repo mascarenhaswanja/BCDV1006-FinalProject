@@ -11,25 +11,19 @@
     background-color: lightgray;
 }
 
-.nav-bar > ul {
+.nav-bar > div {
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
 
-.nav-bar > ul > li {
+.nav-bar > div * {
     padding: 1em;
-}
-
-.nav-bar > ul > li > a {
     text-decoration: none;
 }
 
 .nav-link:hover {
     background-color: gray;
-}
-
-.nav-link:hover  > a {
     color: white;
 }
 
