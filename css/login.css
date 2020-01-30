@@ -9,7 +9,6 @@ body {
     
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
 
     position: absolute;
     top: 50%;
@@ -18,9 +17,8 @@ body {
 
     padding: 2em;
     width: 200px;
-    /* height: 500px; */
 
-    background-color: mintcream;
+    background-color: rgba(245, 255, 250, 0.6);
     border-radius: 10px;
 }
 
@@ -41,6 +39,14 @@ body {
 
 .login-submit-button {
     margin: 1em 0 1em 0;
+    border: none;
+    background-color: rgb(42, 159, 255);
+    border-radius: 50px;
+    padding: 1em 0 1em 0;
+}
+
+.login-submit-button:hover {
+    background-color: rgb(83, 178, 255);
 }
 
 .sign-in {
