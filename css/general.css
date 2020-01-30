@@ -4,7 +4,7 @@
 }
 
 .nav-bar {
-    position: static;
+    position: fixed;
 }
 
 .nav-bar > ul {
@@ -19,4 +19,22 @@
 
 .nav-logo {
     flex: 1;
+}
+
+main {
+    padding-top: 50px;
+}
+
+footer {
+    display: block;
+    position: relative;
+}
+
+.company-info {
+    display: flex;
+    text-align: center;
+}
+
+.company-info > p {
+    flex-grow: 1;
 }
