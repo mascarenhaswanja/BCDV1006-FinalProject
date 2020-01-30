@@ -3,8 +3,12 @@
     padding: 0;
 }
 
+/* Navigation bar */
+
 .nav-bar {
     position: fixed;
+    width: 100%;
+    background-color: lightgray;
 }
 
 .nav-bar > ul {
@@ -14,16 +18,32 @@
 }
 
 .nav-bar > ul > li {
-    margin: 1em;
+    padding: 1em;
+}
+
+.nav-bar > ul > li > a {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: gray;
+}
+
+.nav-link:hover  > a {
+    color: white;
 }
 
 .nav-logo {
     flex: 1;
 }
 
+/* Main */
+
 main {
     padding-top: 50px;
 }
+
+/* Footer */
 
 footer {
     display: block;
