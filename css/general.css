@@ -47,7 +47,14 @@ main {
 
 footer {
     display: block;
-    position: relative;
+    position: fixed;
+    padding: 0.5em;
+    
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    background-color: lightgray;
 }
 
 .company-info {
