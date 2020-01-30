@@ -6,6 +6,7 @@ section {
 }
 
 section > div {
+    height: 100%;
     margin: 0 2vw 0 2vw;
 }
 
@@ -24,4 +25,14 @@ img {
 .video-responsive {
     width: 100%;
     height: 315px;
+}
+
+@media(max-width: 650px) {
+    section {
+        flex-direction: column;
+    }
+
+    section > div {
+        margin: 2vh 2vw 2vh 2vw;
+    }
 }
