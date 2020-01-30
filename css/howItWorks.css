@@ -1,0 +1,27 @@
+section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10vh 5vw 10vh 5vw;
+}
+
+section > div {
+    margin: 0 2vw 0 2vw;
+}
+
+section .flex-text {
+    flex: 1;
+}
+
+section .flex-image {
+    flex: 2;
+}
+
+img {
+    width: 100%;
+}
+
+.video-responsive {
+    width: 100%;
+    height: 315px;
+}
