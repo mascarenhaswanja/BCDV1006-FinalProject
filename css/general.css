@@ -37,6 +37,8 @@
     display: none;
 }
 
+/* Media query for dropdown menu */
+
 @media screen and (max-width: 650px) {
     .nav-bar a {
         display: none;
