@@ -9,7 +9,6 @@ body {
     
     display: flex;
     flex-direction: column;
- 
 
     position: absolute;
     top: 50%;
@@ -44,6 +43,15 @@ input[type=email] {
     box-sizing: border-box;
 }
  
+    width: 200px;
+
+    background-color: rgba(245, 255, 250, 0.65);
+    border-radius: 10px;
+}  
+.contact-form h3 {
+    text-align: center;
+}
+
 .contact-submit-button {
     margin: 1em 0 1em 0;
     border: none;
@@ -57,6 +65,7 @@ input[type=email] {
     transform: scale(1.1);
     transition: 0.2s;
 }
+
 @media (max-width: 800px) {
     .contact-form input {
       margin: 10px 0;
