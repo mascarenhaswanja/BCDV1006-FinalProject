@@ -9,30 +9,59 @@
     position: fixed;
     width: 100%;
     background-color: lightgray;
-}
 
-.nav-bar > div {
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
 
-.nav-bar > div * {
+.nav-bar > * {
     padding: 1em;
     text-decoration: none;
 }
 
-a, a:visited, a:hover, a:active {
+.nav-bar a, a:visited, a:hover, a:active {
     color: inherit;
 }
 
-.nav-link:hover {
+.nav-link:hover, #burger-icon:hover {
     background-color: gray;
     color: white;
 }
 
 .nav-logo {
     flex: 1;
+}
+
+#burger-icon {
+    display: none;
+}
+
+@media screen and (max-width: 650px) {
+    .nav-bar a {
+        display: none;
+    }
+
+    #burger-icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    #burger-icon:hover {
+        cursor: pointer;
+    }
+
+    .nav-bar-dropdown {
+        flex-direction: column;
+        z-index: 1000;
+    }
+
+    .nav-bar-dropdown a {
+        display: block;
+        text-align: right;
+    }
 }
 
 /* Main */

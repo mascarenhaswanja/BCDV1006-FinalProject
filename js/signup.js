@@ -1,3 +1,5 @@
+// Thanks to https://codepen.io/diegoleme/pen/surIK
+
 var password = document.getElementById("login-password")
 var passwordConfirm = document.getElementById("login-password-confirm");
 
