@@ -26,13 +26,13 @@
             <h1>Sign Up</h1>
 
             <label for="login-email"> Email </label>
-            <input type="email" name="email" id="login-email">
+            <input type="email" name="email" id="login-email" pattern="[\w]+@[\w]+\.[\.\w]+" required>
 
             <label for="login-password"> Password </label>
-            <input type="password" name="password" id="login-password">
+            <input type="password" name="password" id="login-password" required>
 
-            <label for="login-password"> Confirm password </label>
-            <input type="password" name="password" id="login-password">
+            <label for="login-password-confirm"> Confirm password </label>
+            <input type="password" name="password" id="login-password-confirm" required>
 
             <input type="submit" value="Sign Up" class="login-submit-button">
 
@@ -44,5 +44,6 @@
             <p>Autonomy for Online Gamers - 160 Kendal Ave, Toronto, ON M5R 1M3 - (416) 415-2000</p>     
         </div>
     </footer>
+    <script src="js/signup.js"></script>
 </body>
 </html>

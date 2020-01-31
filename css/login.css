@@ -55,3 +55,12 @@ body {
     font-size: small;
     text-align: center;
 }
+
+.sign-in a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sign-in a:hover {
+    text-decoration: underline;
+}

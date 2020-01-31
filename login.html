@@ -27,13 +27,13 @@
             <h1>Login</h1>
 
             <label for="login-email"> Email </label>
-            <input type="email" name="email" id="login-email">
+            <input type="email" name="email" id="login-email" pattern="[\w]+@[\w]+\.[\.\w]+" required>
 
             <label for="login-password"> Password </label>
-            <input type="password" name="password" id="login-password">
+            <input type="password" name="password" id="login-password" required>
             <!-- <i class="eye-icon fa fa-eye"></i> -->
 
-            <input type="submit" value="Login" class="login-submit-button">
+            <input type="submit" value="Login" class="login-submit-button" required>
 
             <div class="sign-in">Don't have account? <a href="signup.html">Sign Up</a></div>
         </form>
